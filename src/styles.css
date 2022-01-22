@@ -1,0 +1,39 @@
+:root {
+  --purple-lightest: #ecebff;
+  --black: #000000;
+  --yellow-regular: #fffd79;
+  --purple-dark: #3f3d56;
+  --light-yellow: #ffe695;
+
+  --font-xsmall: 0.8rem;
+  --font-small: 0.9rem;
+  --font-regular: 1rem;
+  --font-large: 1.2rem;
+  --font-xlarge: 1.5rem;
+}
+
+body,
+html {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: #000000;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Noto Sans;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}

@@ -1,0 +1,37 @@
+header {
+  background-color: var(--black);
+  padding: 15px 0;
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 5;
+}
+
+.headerContent {
+  margin: auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerName {
+  font-weight: bold;
+  font-size: var(--font-large);
+  font-family: Noto Sans;
+  color: var(--yellow-regular);
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navLinks > a:hover {
+  color: var(--light-yellow);
+}
+
+.navLinks > a {
+  text-decoration: none;
+  color: var(--yellow-regular);
+  font-weight: 500;
+}

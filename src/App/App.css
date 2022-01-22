@@ -1,0 +1,82 @@
+main {
+  width: 75%;
+  max-width: 65rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 7rem 0;
+  color: white;
+}
+
+/*** Top landing section ***/
+
+#landing {
+  display: grid;
+  gap: 2rem;
+  grid-template-areas:
+    "headline headline ."
+    "about img img";
+}
+
+#landing .headline {
+  font-weight: 500;
+  grid-area: headline;
+  font-size: var(--font-xlarge);
+}
+
+#landing .headline > span {
+  font-weight: bold;
+  color: var(--light-yellow);
+}
+
+#landing img {
+  grid-area: img;
+  margin-top: -2rem;
+}
+
+article.about-me {
+  grid-area: about;
+  height: fit-content;
+}
+
+/***************************/
+
+/*** Projects section ***/
+
+.projects-section {
+  position: relative;
+}
+
+.yellow-box {
+  background-color: var(--light-yellow);
+  width: 200vw;
+  position: absolute;
+  transform: translateX(-50%);
+  top: -2rem;
+  bottom: -2rem;
+}
+
+.project-cards {
+  z-index: 2;
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+/************************/
+
+/*** Experience section ***/
+
+.experience-accordions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/**************************/

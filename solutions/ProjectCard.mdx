@@ -1,0 +1,15 @@
+import "./ProjectCard.css";
+
+export function ProjectCard({
+  title,
+  description,
+  imgSrc = "/assets/project_placeholder.svg",
+}) {
+  return (
+    <div className="cardContainer">
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <img alt={title} src={imgSrc} />
+    </div>
+  );
+}
